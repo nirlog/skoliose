@@ -1,0 +1,9 @@
+.review__block:not(:first-child) {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 767px) {
+    .review__block {
+        grid-column: 1/2;
+    }
+}

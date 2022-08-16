@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 767px) {
+    .review__patient-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 162px;
+        justify-content: space-between;
+        gap: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .review__patient-block {
+        grid-template-columns: 1fr max-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .review__patient-block {
+        grid-template-columns: 1fr;
+    }
+}

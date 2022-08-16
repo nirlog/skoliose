@@ -1,0 +1,12 @@
+.review__date {
+    padding-left: 26px;
+    background-image: url(../../images/calendar.svg);
+    background-size: 18px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6D6D6D;
+
+}

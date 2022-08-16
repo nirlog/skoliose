@@ -1,0 +1,13 @@
+.review__patient-date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6D6D6D;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .review__patient-date {
+        margin-top: 0;
+    }
+}

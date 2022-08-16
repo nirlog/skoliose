@@ -1,0 +1,31 @@
+.review__rating {
+    display: grid;
+    width: 100%;
+    max-width: 162px;
+    height: 40px;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: rgba(16, 127, 201, 0.2);
+    border-radius: 4px;
+    margin-top: 36px;
+}
+
+@media screen and (max-width: 767px) {
+    .review__rating {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .review__rating {
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .review__rating {
+        grid-column: 1/2;
+    }
+}
